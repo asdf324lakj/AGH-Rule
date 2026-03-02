@@ -11,6 +11,8 @@
 本项目旨在按需求整合 `AdGuard` 规则。定时从上游订阅获取规则，去除`重复`和`不受支持`的规则并进行分类。如果存在误杀请手动放行。  
 支持`AdGuard`、`AdGuard Home`,每`24小时`自动更新一次   
 
+<li><a href="https://paileactivist.github.io/toolz/adblock.html">测试广告拦截率</a></li>
+
 #### 上游规则
 
 <details>
