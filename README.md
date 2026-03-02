@@ -31,13 +31,13 @@
 
 | 名称           | 说明                                                | Github订阅                                                                              | jsDelivr加速订阅                                                                        |
 |--------------|---------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| `all.txt`    | 去重的规则合集，包含以下所有规则，适用于 `AdGuard` 客户端                | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/all.txt)      | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/all.txt)    |
-| `adgh.txt`   | 针对 `AdGuardHome` 的规则，包含 `domain.txt` `regex.txt`和`mylist.txt` | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/adgh.txt)   | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/adgh.txt)   |
-| `domain.txt` | 域名规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/domain.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/domain.txt) |
-| `hosts.txt`  | `hosts` 规则，~~包含一些访问加速~~                           | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/hosts.txt)  | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/hosts.txt)  |
-| `modify.txt` | 修饰规则，`AdGuard`支持                                      | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/modify.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/modify.txt) |
-| `regex.txt` | 正则规则，`AdGuardHome`支持                                       | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/regex.txt) |
-| `mylist.txt` | 自用补充规则，人工更新                                       | [✈️点此查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/mylist.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/mylist.txt) |
+| `all.txt`    | 去重的规则合集，包含以下所有规则，适用于 `AdGuard` 客户端                | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/refs/heads/main/rule/all.txt)      | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/all.txt)    |
+| `adgh.txt`   | 针对 `AdGuardHome` 的规则，包含 `domain.txt` `regex.txt`和`mylist.txt` | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/refs/heads/main/rule/adgh.txt)   | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/adgh.txt)   |
+| `domain.txt` | 域名规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/refs/heads/main/rule/domain.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/domain.txt) |
+| `hosts.txt`  | `hosts` 规则，~~包含一些访问加速~~                           | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/refs/heads/rule/hosts.txt)  | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/hosts.txt)  |
+| `modify.txt` | 修饰规则，`AdGuard`支持                                      | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/refs/heads/rule/modify.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/modify.txt) |
+| `regex.txt` | 正则规则，`AdGuardHome`支持                                       | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/refs/heads/rule/regex.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/regex.txt) |
+| `mylist.txt` | 自用补充规则，人工更新                                       | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/refs/heads/main/rule/mylist.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/mylist.txt) |
 
 <br/>
 <h2 id="c">🛠️ 配置</h2>
