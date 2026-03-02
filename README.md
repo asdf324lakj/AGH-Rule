@@ -41,7 +41,7 @@
 | `hosts.txt`  | `hosts` 规则，~~包含一些访问加速~~                           | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/master/rule/hosts.txt)  | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule/rule/hosts.txt)  |
 | `modify.txt` | 修饰规则，`AdGuard`支持                                      | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/master/rule/modify.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule/rule/modify.txt) |
 | `regex.txt` | 正则规则，`AdGuardHome`支持                                       | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/master/rule/regex.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule/rule/regex.txt) |
-| `mylist.txt` | 自用补充规则，人工更新                                       | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/master/rule/mylist.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule/rule/mylist.txt) |
+| `mylist.txt` | 对上游规则的修正补充，根据日常使用体验，解除一些失误拦截(自用补充规则，人工更新)                                       | [✈️点此查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/master/rule/mylist.txt) | [🚀点此查看(延迟)](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule/rule/mylist.txt) |
 
 <br/>
 <h2 id="c">🛠️ 配置</h2>
