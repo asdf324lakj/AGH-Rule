@@ -24,12 +24,7 @@
 </ul>
 </details>
 
-#### 本地规则
 
-
-- [mylist](https://github.com/asdf324lakj/AGH-Rule/master/rule/mylist.txt)
-
-> 主要是对上游规则的修正补充，根据日常使用体验，解除一些失误拦截
 
 <h2 id="b">🎯 订阅</h2>
 
