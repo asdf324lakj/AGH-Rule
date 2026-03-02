@@ -7,7 +7,7 @@ on:
       - '*.md'
       - '.DS_Store'
   schedule:
-    - cron: '0 */24 * * *'  # 每 12 小时执行一次
+    - cron: '0 */24 * * *'  # 每 24 小时执行一次
   workflow_dispatch:  # 允许手动触发
 
 env:
