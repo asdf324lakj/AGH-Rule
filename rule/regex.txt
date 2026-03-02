@@ -1,12 +1,380 @@
-# Update time: 2026-03-02 23:11:45
-# Repo URL: AGH规则合并/去重
+# Update time: 2026-03-02 23:12:57
+# Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
-# - ' https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt '   # uniartisan 的隐私列表
-# - ' https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt '  # uniartisan 的广告拦截列表
-# - ' https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt '  # AWAvenue 广告规则
+# - 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
+# - 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt' #Scam Blocklist
+# - 'https://someonewhocares.org/hosts/zero/hosts' #Dan Pollock's List
+# - 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext' #Peter Lowe's List
+# - 'https://abp.oisd.nl/basic/' #OISD Blocklist Basic
+# - 'https://cdn.jsdelivr.net/gh/crazy-max/WindowsSpyBlocker/data/hosts/spy.txt' #WindowsSpyBlocker
+# - 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #大圣净化
+# - 'https://code.gitlink.org.cn/hacamer/AdRules/raw/branch/main/adguard-full.txt' #AdRules AdGuard Full List
+# - 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt' #adguard base
+# 自用添加↓
+# - 'https://anti-ad.net/easylist.txt' #name: anti-AD
+# - 'https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt' #name: AdGuard CNAME 伪装跟踪器列表
+# - 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt' #name: AdGuard DNS filter
+# - 'https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt' #name: AdditionalFiltersCN
+# - 'https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt' #name: ADgk 移动广告规则
+# - 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt' #name: 乘风 广告过滤规则
+# - 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt' #name: 乘风 视频过滤规则
+# - 'https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt' #name: HalfLife_合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance
+# - 'https://adaway.org/hosts.txt' #name: AdAway 官方的去广告 Host 规则
+# - 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt' #name: 去除禁止广告拦截提示规则
+# - 'https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt' #name: Yhosts规则
+# - 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt' #name: 杏稍AdRules DNS List
+# - 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/AdGuard/Advertising/Advertising.txt' #name: AdGuard_blackmatrix7合并
+# - 'https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu.txt' #name: 知乎 普通版
+# - 'https://github.com/217heidai/adblockfilters' #name: 217heidai/adblockfilters去重合并(比较大)
+# - 'https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt' #name: Youtube-Adfilter-Web
+# - 'https://raw.githubusercontents.com/91ajames/ublock-filters-ulist-youtube/main/blocklist.txt' #name: ublock-filters-ulist-youtube
+# KoolProxy规则
+# - 'https://github.com/ilxp/koolproxy/raw/main/rules/koolproxy.txt' #name:静态规则
+# - 'https://github.com/ilxp/koolproxy/raw/main/rules/daily.txt' #name:每日规则
+# - 'https://github.com/ilxp/koolproxy/raw/main/rules/steven.txt' #name:StevenBlack规则
+# uBlock内置规则
+# - 'https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.txt' #name: uBlock filters
+# - 'https://ublockorigin.pages.dev/filters/badware.txt' #name: uBlock filters – Badware risks
+# - 'https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/privacy.txt' #name: uBlock filters – Privacy
+# - 'https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt' #name: uBlock filters – Quick fixes
+# - 'https://cdn.statically.io/gh/uBlockOrigin/uAssetsCDN/main/filters/resource-abuse.txt' #name: uBlock filters – Resource abuse
+# - 'https://gitcdn.link/cdn/uBlockOrigin/uAssetsCDN/main/filters/unbreak.txt' #name: uBlock filters – Unbreak
+# - 'https://filters.adtidy.org/extension/ublock/filters/11.txt' #name: AdGuard Mobile Ads移动设备
 # 本地规则
 # - 'mylist.txt'
 ###############################################################################################
 
-# 每24小时同步一次、如有误杀、请手动解除
+# 每12小时同步一次、如有误杀、请手动解除
+
+||sax*.sina.
+||bdcpro*.techweb.com.cn^
+||67.21.92.*.gif
+||uc*.atobo.com^
+||res*.pinpai8.cn^
+||impservice*.youdao.com^
+||d*.ruiwen.com^
+||fanpingbi*.gaokao.com^
+||dn*.ixinwei.com^
+||a*.chajiaotong.com^
+||bdlm*.hc360.com^
+||ac*.786ip.com^
+728x90.jpg|
+||ya*.dwstatic.com^
+||ad*.on.cc^
+||fpb*.51edu.com^
+||d*.xinshipu.com^
+||ja*.gamersky.com^
+||static*.365inews.com^
+||ysdm*.ys137.com.cn^
+||ac*.pingguolv.com^
+||107.167.22.*.gif
+||at*.doubanio.com^
+||tw-726620180914.*.run.app^
+||dm*.yxlady.com^
+||38.33.15.*.gif
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||adi*.cnool.net^
+||tupian888.*.bcebos.com^
+||same*.stockstar.com^
+||gcw*.2liang.cn^
+||impservice*.yodao.com^
+||ac*.faxingchina.com^
+||fpb1.chinacar.
+||ax.*.ifeng.com^
+||121.204.246.*.gif
+||acookie.*.gif?
+||js*.abolezi.com^
+||sam*.baby-kingdom.com^
+||107.167.16.*.gif
+||union*.365inews.com^
+||qpb*.sohu.com^
+||zbb.bbb.*.pics^
+||vns86.oss-*.aliyuncs.com^
+||ky891.oss-*.aliyuncs.com^
+||asd8900.oss-*.aliyuncs.com^
+||pixel*.production-public.tubi.io^
+||tracking.cds.dmm.
+||host*.nti.nl^
+||matt.mercadolibre.
+||gtmdev.jabra.
+||tracking.olx.
+||orderana*.spankbang.com^
+||adservice.google.
+notifications.google.com%2Fg%2Fimg%2F*.gif
+|load.sst.
+||host*.carl-ras.dk^
+||collector-*.pxchk.net^
+||log*-normal-*.tiktokv.us^
+||hw-sh-pcdn-*.biliapi.net^
+||faro-collector-prod-*.grafana.net^
+||log*-normal-*.tiktokv.com
+||lt*.tritondigital.com^
+||sgtm.fashionunited.
+||api-*.hismarttv.com^
+||admob-app-id-*.firebaseio.com^
+||datacollect*.abtasty.com^
+||mon-*.lemon8-app.us^
+||trace-*.hungrypanda.co^
+||mon-*.lemon8-app.com^
+||cnt.vivatube.
+||telemetry*.transcend.io^
+||beehiiv-adnetwork-production.s*.amazonaws.com^
+||sst.carwow.
+||collector-*.perimeterx.net^
+||log*-misc-lf.amemv.com^
+||stats2.*.fdnames.com^
+||stats.zone-telechargement.
+||mr.allegro.
+||powa-ingest-prod-*.video-player.arcpublishing.com^
+||f-log-*.grammarly.io^
+||wa.gmx.
+||analytics*.clickdimensions.com^
+||mon*-*.tiktokv.us^
+||bi-eventtracker-*.amazonaws.com^
+||pxl-*.ozone.ru^
+||kbox-analytics-prod.s*.amazonaws.com^
+||cnt.yeptube.
+||iptracker-lb-*.amazonaws.com^
+||ali-bj-pcdn-*.biliapi.net^
+||pixel*.adswizz.com
+||tccd.douglas.
+||ce-global-track-*.amazonaws.com^
+||customerevents.us-east-*.internal.dradis.netflix.com^
+||device-metrics-us*.amazon.com^
+||cnt.nuvid.
+||ana*.inews24.com^
+r.rakuten.co.jp%2F*.gif%3Fmpe%3D
+||t*.playdigo.live^
+||sock*-goguardian.pusher.com^
+||geotargetly-api-*.com^
+|load.ss.
+||wslog-global-dual.cool*cloud.com^
+||tnc16-*.hypic.com^
+||mcs-va-*.tiktokv.com^
+||events-api*.outfit7.com^
+||sgtm.fairmont.
+||analytics.streamfab.
+||tnc*.tiktokv.us^
+||report*.appmetrica.webvisor.com^
+||log-collector.shopee.
+||ad*.ettoday.net^
+||beacons*.gvt3.com^
+||rtlog*.tiktokv.com^
+||flurry.agentportal.*.yahoodns.net^
+||stats.zone-annuaire.
+||logservice-*.platform.dbankcloud.cn^
+||clickstream-*.homedepot.com^
+||log*-normal-useast1a.lemon8-app.com^
+||stat*.1internet.tv^
+||analyzer*.fc2.com^
+||log*.byteoversea.com^
+||mon*-misc-lf.fqnovel.com^
+||mon*-misc.fqnovel.com^
+||cs*.mp3bars.com^
+||ecommerce-events*.adscale.com^
+||grs.dbankcloud.
+||tracking-v*.a.run.app^
+||tracking*.euroads.fi^
+||stats*.credit-cooperatif.coop^
+||weblogger-wss.cool*cloud.com^
+||a*.smlog.co.kr^
+||track.zalando.
+||mcs-*.tiktok.com^
+||seller-log-collector.shopee.
+||sta.zone-telechargement.
+||t.delfi.
+click.official.infomaniak.com%2Fo%2F
+||device-metrics-*.amazon.com^
+||track.*.roku.com^
+||install*.zonastat.com^
+||ubt.tracking.shopee.
+||cnt.tubeon.
+it-recht-kanzlei.de%2Flogo%2FCopyright-Logo.png%3Fi%3D
+d4?appid*type*
+||aff*.kolektiva.net^
+||events*.cre.ma^
+%2Fvia%2Fo%3Fh%3D
+||pixel-*.rubiconproject.com^
+||mcs-*.lemon8-app.com^
+||agatha-log-service-*.a.run.app^
+||log-va*.capcutapi.com^
+||track.tiara.
+||stlog*-local.kakao.com^
+||stw.extreme-down.
+||stats.*.rongnav.com^
+|load.sgtm.
+||mon-v*-boot.capcutapi.com^
+|piwik.
+||datacollector-*.dt.hicloud.com^
+||sonar*.xy.fbcdn.net^
+||mcs-*.lemon8-app.us^
+||analytics.ahrefs.
+||discovery-ios-*.ertelecom.ru^
+||collect-elb-*.amazonaws.com^
+||collector-*.tvsquared.com^
+||mcs.*.tiktok.com^
+||log-*.previewnetworks.com^
+||counter*-yadro*-ru.unblocked.lol^
+||countly-
+||countly.
+||event.*.shoplive.cloud^
+||backstory.ebay.
+||auth-*.hismarttv.com^
+||batchlogging*-eu.truecaller.com^
+||stats-*.p2pnow.ru^
+||report.*.gbqofs.io^
+||eum*.instana.io^
+directtrack.*.js
+||tnc16-*.byteoversea.com^
+||tracking.geo.*.amazonaws.com^
+||ads-dmp-collect.*.karrotmarket.com^
+||query*.petametrics.com^
+||button.blogs.yandex.
+||sta.wawacity.
+||attr-logs.*.amazonaws.com^
+||flurry.agentportal-*.yahoodns.net^
+||host*.rigbyandpeller.com^
+||servo-report.keepstreams.*^
+||analytics.*.sky.com^
+||collector-*.luigisbox.com^
+||logreport-global-dual.cool*cloud.com^
+||htm*.hepsiburada.com^
+||clog*.yuanfudao.com^
+||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
+||mapi-log.qoo*.jp^
+||rum*.a.trbcdn.net^
+||logs.collector.*.cloud.solarwinds.com^
+||xlog*-*.tiktokv.com^
+||analytics-*-nfl.yinzcam.com^
+||analytics-api.dvdfab.
+||sdk-*.moengage.com^
+||liveme-sensors-collect2-*.amazonaws.com^
+||rtlog*.tiktokv.us^
+||stats.*.ronghub.com^
+||st-*.dynamicyield.com^
+||host*.ncoi.nl^
+||ulog-*.ksapisrv.com^
+||rum*.cdnvideo.ru^
+||lively-collect-elb-*.amazonaws.com^
+||analytics-rollout-*.amazonaws.com^
+google-analytics.com%2Fcollect
+||mssdk*.zijieapi.com^
+||log-v*-boot.capcutapi.com^
+||browser-intake-*-datadoghq.com^
+||edgetrksvc.ebay.
+||collector-*.px-cdn.net^
+||ulog*.gifshow.com^
+||host*.polaroid.com^
+||staging-*.ispot.tv^
+||mon*.tiktokv.us^
+esputnik.com%2Frepository%2Fapplications%2Fcommons%2Fhidden.png
+||datacollector-*.dt.dbankcloud.cn^
+||batchlogging*-noneu.truecaller.com^
+||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
+||imp-*.jampp.com^
+||apple-*.le.com^
+||bc.geocities.
+||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
+||cnt.hd21.
+||event.*.karrotmarket.com^
+||ulog.*.ksapisrv.com^
+||servo-report.dvdfab.
+||trk*.vidible.tv^
+||gscounters.*.gigya.com^
+||c*hit.zerkalo.io^
+||mon-*.tiktokv.com^
+||client.rum.*.amazonaws.com^
+||pixelapi-*.cs.mysamba.tv^
+||acr-*-prd.samsungcloud.tv^
+||mon*-*.tiktokv.com^
+||collector-*.px-client.net^
+||stat.*.v-56.com^
+||adcounter*.uptolike.ru^
+||metric*.rediff.com^
+||tnc*.zijieapi.com^
+||tracker.twenga.
+%2Famsweb.php%3F
+||use-trk*.bluevoox.com^
+||log*.zijieapi.com^
+||log*.aliyuncs.com^
+||geoloc*.geovisite.ovh^
+||beacon-*.helpscout.net^
+%2Fevent.gif%3F
+||df.infra.shopee.
+||cnt.winporn.
+||mssdk*.capcutapi.com^
+||t*.zcvh.net^
+||ulog*.kwai-pro.com^
+||collector.hamsterix.
+||cdn-*.gravityfield.ai^
+||log*.vietnamplus.vn^
+||matomo-demo-*.amazonaws.com^
+||hn-ping*.hashnode.com^
+||sdk.fra-*.braze.eu^
+||mcdp-*.outbrain.com^
+||me9ddf.moebelix.
+||sensorsdata*.read.duokan.com^
+||logstash-*.radio-canada.ca^
+||mgbsdk*.matrix.easebar.com^
+||app-analytics-*.snapchat.com^
+||tnc*.tiktokv.com^
+||api*.amplitude.com^
+||report.*.qq.com^
+||px*.mediahills.ru^
+healio.com%2Fmedialibrary%2Fpixel.png%3Ftp%3D
+||ulog.*.kwai-pro.com^
+||ubacollect-*.cloud.dbankcloud.cn^
+||appanalysis*.banggood.com^
+google.com%2Fappserve%2Fmkt%2Fproof%2Fimg%2F*.gif
+||maas-*.phunware.com^
+||applog*.matrix.easebar.com^
+||hstats*.hepsiburada.com^
+||cza*.crazygames.com^
+||tnc-va*.capcutapi.com^
+||mcs.*.tiktokv.com^
+||geoloc*.geo20120530.com^
+||cnt.proporn.
+||fp-*it*.fengkongcloud.com^
+||ulog*.kwaipros.com^
+||host*.rvshare.com^
+||log*-*.tiktokv.com^
+||logs-*.rebxgame.com^
+||df.infra.sz.shopee.
+||data-track*.yingxiong.com^
+||geoloc*.geostats.ovh^
+|load.gtm.
+||ssp*.rtb.beeline.ru^
+deepl.qualtrics.com%2Fsubscription%2Fwatermark.gif%3F
+||pixel.archive.
+||stats*.videonow.ru^
+||api*.moengage.com^
+||hba*.hepsiburada.com^
+||mon-va*.capcutapi.com^
+||collect-v*.51.la^
+notifications.googleapis.com%2Femail%2Ft%2F*%2Fa.gif
+||logger-*.dailymotion.com^
+||ub.galaxus.
+||polaris*-normal-*.zijieapi.com^
+|a.klaviyo.com^
+%2Fopen.aspx%3F
+||analytics*.carambo.la^
+||invenio_tracking_*.sgnapps.com^
+%2Frw%2Fbeacon_
+||track-*.hungrypanda.co^
+||thegreatesthits.
+||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
+||tracking-*.trnox.com^
+||telemetry.*.pvp.net^
+||sgtm.wimdu.
+||analytics.ticketmaster.
+||snowplow-collector.
+||gbxreport-*.wf.com^
+||spa-tracker*.spapi.io^
+||stat.tiara.
+||pixel-*.convertagain.net^
+||analytics*.prezly.com^
+||collector.xhamster*.
+||collector*.ex.co^
+||touch.yesim.
