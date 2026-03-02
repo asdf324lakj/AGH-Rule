@@ -7,7 +7,7 @@ on:
       - '*.md'
       - '.DS_Store'
   schedule:
-    - cron: '0 */12 * * *'  # 每 12 小时执行一次
+    - cron: '0 */24 * * *'  # 每 12 小时执行一次
   workflow_dispatch:  # 允许手动触发
 
 env:
@@ -53,7 +53,7 @@ jobs:
         run: |
           cd rules
           rm *.txt
-          wget https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
+          wget https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
 
           bash ../script/github-hosts.sh
           cd ../
