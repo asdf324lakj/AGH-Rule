@@ -71,6 +71,3 @@ application:
 - 👉 特别感谢@fordes123
 
 <br/>
-<h2 id="c">🧭 支持</h2>
-
-[![Powered by DartNode](https://dartnode.com/_branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
