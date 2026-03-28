@@ -1,2 +1,7 @@
-!-------------白名单---------------
-
+!-------------黑名单---------------
+#国家反诈中心
+127.0.0.1 gjfzpt.cn
+127.0.0.1 fzapp-test-tyy.gjfzpt.cn
+127.0.0.1 oss.gjfzpt.cn
+127.0.0.1 fzapp.gjfzpt.cn
+127.0.0.1 fzapph5.gjfzpt.cn
