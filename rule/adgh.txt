@@ -1,10 +1,13 @@
-# Update time: 2026-03-28 21:33:10
+# Update time: 2026-03-28 21:40:21
 # Repo URL: AGH规则合并/去重
 
 ###########   合并/去重自以下规则   ###########
-# - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt'  #uniartisan 的隐私列表
-# - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt' #uniartisan 的广告拦截列表
-# - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' #AWAvenue 广告规则
+ #uniartisan 的隐私列表
+ # - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt'  
+ # uniartisan 的广告拦截列表 
+ # - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt' 
+ #AWAvenue 广告规则 
+ # - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' 
 #   本地规则
 # - 'mylist.txt'
 ######################
