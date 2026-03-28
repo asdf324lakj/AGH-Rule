@@ -8,7 +8,7 @@ public class Constant {
 
     public static final String UPDATE = "# Update time: {}\r\n";
 
-    public static final String REPO = "# Repo URL: AGH规则合并/去重\r\n\r\n###########   合并/去重自以下规则   ###########\r\n #uniartisan 的隐私列表\r\n # - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt'  \r\n # uniartisan 的广告拦截列表 \r\n # - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt' \r\n #AWAvenue 广告规则 \r\n # - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' \r\n#   本地规则\r\n# - 'mylist.txt'\r\n######################\r\n\r\n# 每24小时同步一次、如有误杀、请手动解除\r\n\r\n";
+    public static final String REPO = "# Repo URL: AGH规则合并/去重\r\n\r\n###########   合并/去重自以下规则   ###########\r\n# uniartisan的隐私列表\r\n# - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt'  \r\n# uniartisan的广告拦截列表 \r\n# - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt' \r\n# AWAvenue广告规则 \r\n# - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt' \r\n# 本地规则\r\n# - 'mylist.txt'\r\n######################\r\n\r\n# 每24小时同步一次、如有误杀、请手动解除\r\n\r\n";
 
     public static final String LOCAL_RULE_SUFFIX = ROOT_PATH + File.separator + "rule";
 
