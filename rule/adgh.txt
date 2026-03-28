@@ -1,4 +1,4 @@
-# Update time: 2026-03-28 21:59:30
+# Update time: 2026-03-28 22:01:37
 # Repo URL: AGH规则合并/去重
 
 ###########   合并/去重自以下规则   ###########
@@ -17,6 +17,11 @@
 
 # 每24小时同步一次、如有误杀、请手动解除
 
+||fzapp.gjfzpt.cn^
+||fzapp-test-tyy.gjfzpt.cn^
+||oss.gjfzpt.cn^
+||fzapph5.gjfzpt.cn^
+||gjfzpt.cn^
 ||api.ssp.xcultur.com^
 ||log-api.pangolin-sdk-toutiao-b.com^
 ||adsfile.qq.com^
