@@ -11,7 +11,7 @@ public class Constant {
 
     public static final String UPDATE = "# Update time: {}\r\n";
 
-    public static final String EXPIRES = "# Expires: 12 hours\r\n";
+    public static final String EXPIRES = "# Expires: 24 hours\r\n";
 
     public static final String REPO_URL =
             "# Repo URL:: https://github.com/asdf324lakj/AGH-Rule\r\n\r\n";
