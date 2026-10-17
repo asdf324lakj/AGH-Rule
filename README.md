@@ -31,13 +31,13 @@
 
 | 名称           | 说明                                                | Github Raw                                                                              | jsDelivr CDN                                                                        |
 |---------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| `all.txt`    | 去重的规则合集，包含以下所有规则，适用于 `AdGuard` 客户端                | [✈️点击查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/all.txt)      | [🚀点击查看](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/all.txt)    |
-| `adgh.txt`   | 针对 `AdGuardHome` 的规则，包含 `domain.txt`、`regex.txt` 和 `mylist.txt`，可与 `hosts.txt` 配合使用 | [✈️点击查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/adgh.txt)   | [🚀点击查看](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule/main/rule/adgh.txt)   |
-| `domain.txt` | 域名规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点击查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/domain.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/domain.txt) |
-| `hosts.txt`  | `hosts` 规则，~~包含一些访问加速~~                           | [✈️点击查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/hosts.txt)  | [🚀点击查看](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/hosts.txt)  |
-| `modify.txt` | 修饰规则，`AdGuard`支持                                      | [✈️点击查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/modify.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/modify.txt) |
-| `regex.txt` | 正则规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点击查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/regex.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/regex.txt) |
-| `mylist.txt` | 对上游规则的修正补充，根据日常使用体验，解除一些误拦截(手动更新)                                       | [✈️点击查看](https://raw.githubusercontent.com/hululu1068/AdGuard-Rule/main/rule/mylist.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/hululu1068/AdGuard-Rule@main/rule/mylist.txt) |
+| `all.txt`    | 去重的规则合集，包含以下所有规则，适用于 `AdGuard` 客户端                | [✈️点击查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/main/rule/all.txt)      | [🚀点击查看](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/all.txt)    |
+| `adgh.txt`   | 针对 `AdGuardHome` 的规则，包含 `domain.txt`、`regex.txt` 和 `mylist.txt`，可与 `hosts.txt` 配合使用 | [✈️点击查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/main/rule/adgh.txt)   | [🚀点击查看](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule/main/rule/adgh.txt)   |
+| `domain.txt` | 域名规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点击查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/main/rule/domain.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/domain.txt) |
+| `hosts.txt`  | `hosts` 规则，~~包含一些访问加速~~                           | [✈️点击查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/main/rule/hosts.txt)  | [🚀点击查看](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/hosts.txt)  |
+| `modify.txt` | 修饰规则，`AdGuard`支持                                      | [✈️点击查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/main/rule/modify.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/modify.txt) |
+| `regex.txt` | 正则规则，`AdGuard`和`AdGuardHome`都支持                                       | [✈️点击查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/main/rule/regex.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/regex.txt) |
+| `mylist.txt` | 对上游规则的修正补充，根据日常使用体验，解除一些误拦截(手动更新)                                       | [✈️点击查看](https://raw.githubusercontent.com/asdf324lakj/AGH-Rule/main/rule/mylist.txt) | [🚀点击查看](https://cdn.jsdelivr.net/gh/asdf324lakj/AGH-Rule@main/rule/mylist.txt) |
 
 <br/>
 <h2 id="c">🛠️ 配置</h2>
@@ -73,9 +73,3 @@ application:
 <br/>
 <h2 id="c">🧭 支持</h2>
 
-<table>
-  <tr>
-    <td><a href="https://dartnode.com?aff=GrumpySalamander981"><img src="./src/img/DartNode.png" width="350" height="150" border="0" alt="Stop Overpaying Start Sharing Save More with DolOffer"></a></td>
-    <td><a href="https://doloffer.com/friend/0ApoCZTz"><img src="./src/img/DolOffer.png" width="350" height="150" border="0" alt="Stop Overpaying Start Sharing Save More with DolOffer"></a></td>
-  </tr>
-</table>
