@@ -1,5 +1,5 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - all.txt
-# Update time: 2026-10-17 14:28:30
+# Update time: 2026-10-17 14:32:19
 # Expires: 12 hours
 # Repo URL:: https://github.com/hululu1068/AdGuard-Rule
 
@@ -9,7 +9,7 @@
 # - 'mylist.txt'
 ###############################################################################################
 
-# 每12小时同步一次、如有误杀、请手动解除
+# 每24小时同步一次、如有误杀、请手动解除
 
 @@||ssl.o.auspost.com.au
 @@||redirect.appmetrica.yandex.com^
