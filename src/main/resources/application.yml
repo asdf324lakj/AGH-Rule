@@ -13,7 +13,7 @@ application:
     #远程规则
     remote:
       - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt'  #AWAvenue 秋风规则
-      - 'https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt' #hagezi 的专业版pro mini
+      - 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt' #hagezi 的专业版pro mini
 
     #本地规则
     local: #本地规则请将文件移动到项目路径rule目录中
