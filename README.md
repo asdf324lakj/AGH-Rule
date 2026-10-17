@@ -21,7 +21,7 @@
     <li><a href="https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt">AWAvenue 广告规则</a></li> 
     <li><a href="https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt">uniartisan 的广告拦截列表</a></li>
     <li><a href="https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt">uniartisan 的隐私列表</a></li>
-    <li><a href="https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt">hagezi 的专业版pro mini</a></li>
+    <li><a href="https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt">hagezi 的专业版pro mini</a></li>
 </ul>
 </details>
 
