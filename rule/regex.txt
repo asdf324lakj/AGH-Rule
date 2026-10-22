@@ -1,11 +1,11 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - regex.txt
-# Update time: 2026-10-22 10:22:52
+# Update time: 2026-10-22 10:23:37
 # Expires: 24 hours
 # Repo URL:: https://github.com/asdf324lakj/AGH-Rule
 
 ###################################   合并/去重自以下规则   ####################################
 # - 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt'
-# - 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.mini.txt'
+# - 'https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt'
 # - 'mylist.txt'
 ###############################################################################################
 
