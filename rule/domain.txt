@@ -1,5 +1,5 @@
 # Title: AdGuard、AdGuardHome广告过滤规则合并/去重 - domain.txt
-# Update time: 2026-11-05 17:12:28
+# Update time: 2026-11-05 17:13:48
 # Expires: 24 hours
 # Repo URL:: https://github.com/asdf324lakj/AGH-Rule
 
@@ -78269,4 +78269,4 @@
 ||support.cdmatech.com^
 ||qti.qualcomm.com^
 ||dm.wo.com.cn^
-||frand-detection.engine.miui.com^
+||fraud-detection.engine.miui.com^
