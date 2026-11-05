@@ -5,3 +5,9 @@
 ||oss.gjfzpt.cn^
 ||fzapp.gjfzpt.cn^
 ||fzapph5.gjfzpt.cn^
+#高通
+||telemetry.qti.qualcomm.com^
+||support.cdmatech.com^
+||qti.qualcomm.com^
+#运营商
+||dm.wo.com.cn^
