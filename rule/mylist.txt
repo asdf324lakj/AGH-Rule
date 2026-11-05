@@ -1,10 +1,12 @@
 !-------------黑名单---------------
-#国家反诈中心
+#反诈
 ||gjfzpt.cn^
 ||fzapp-test-tyy.gjfzpt.cn^
 ||oss.gjfzpt.cn^
 ||fzapp.gjfzpt.cn^
 ||fzapph5.gjfzpt.cn^
+eps.caict.ac.cn
+gateway-papa.cloud.weizhi.com
 #高通
 ||telemetry.qti.qualcomm.com^
 ||support.cdmatech.com^
