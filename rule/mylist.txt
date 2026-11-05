@@ -11,3 +11,6 @@
 ||qti.qualcomm.com^
 #运营商
 ||dm.wo.com.cn^
+#小米
+||frand-detection.engine.miui.com^
+||flash.sec.miui.com^
