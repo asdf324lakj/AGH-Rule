@@ -19,3 +19,5 @@
 #小米
 ||fraud-detection.engine.miui.com^
 ||flash.sec.miui.com^
+#跳转
+||xiiipanime.cyou^
